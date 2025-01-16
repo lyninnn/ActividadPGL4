@@ -151,7 +151,7 @@ fun DarkMode(darkMode: MutableState<Boolean>){
 @Composable
 fun FloatinAction(){
     FloatingActionButton(onClick = {/*TODO*/},
-        backgroundColor =Color.Blue,
+        containerColor =Color.Blue,
         contentColor=Color.White
         ) {
         Icon(
